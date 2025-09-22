@@ -251,7 +251,7 @@ def run_game():
         screen.blit(hud_img, (10, 10))
 
         if state == 'menu':
-            draw_text_center(screen, 'CHICKEN INVADERS - CLON', font_big, settings.WHITE, (settings.WIDTH//2, settings.HEIGHT//2 - 80))
+            draw_text_center(screen, 'CHICKEN INVADERS', font_big, settings.WHITE, (settings.WIDTH//2, settings.HEIGHT//2 - 80))
             draw_text_center(screen, 'ENTER = Jugar   ESC = Salir', font_med, settings.WHITE, (settings.WIDTH//2, settings.HEIGHT//2 + 10))
         elif state == 'phase':
             draw_text_center(screen, phase_text, font_big, settings.YELLOW, (settings.WIDTH//2, settings.HEIGHT//2))
